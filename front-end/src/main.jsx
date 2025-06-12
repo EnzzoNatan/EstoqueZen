@@ -4,10 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import LoginPage from './components/LoginPage.jsx'
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <LoginPage/>
+
     
+
   </StrictMode>,
 )
