@@ -1,5 +1,6 @@
 import Header from "./components/Header"
-import Home from "./components/Home"
+import Home from "./Pages/Home"
+import ForgotPassword from "./Pages/ForgotPassword"
 
 function App() {
   
@@ -7,6 +8,8 @@ function App() {
     <>
       <Header/>
       <Home/>
+
+      <ForgotPassword/>
     </>
   )
 }
