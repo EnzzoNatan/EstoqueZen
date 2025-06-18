@@ -1,6 +1,8 @@
-function LoginPage(){
-    return (
-        <div className="bg-gray-300 rounded-3xl p-10 w-[400px] shadow-md flex flex-col items-center m-auto mt-32 ">
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div className="bg-gray-300 rounded-3xl p-10 w-[400px] shadow-md flex flex-col items-center m-auto mt-32 ">
         
         <form className="w-full space-y-6">
             <div >
@@ -26,7 +28,7 @@ function LoginPage(){
             </div>
         </form>        
         </div>
-    )
+  )
 }
 
-export default LoginPage
+export default Home
