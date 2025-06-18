@@ -1,8 +1,7 @@
 import Header from "./components/Header"
 import Home from "./Pages/Home"
-import ForgotPassword from "./Pages/ForgotPassword"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-
+import ForgotPassword from "./Pages/ForgotPassword"
 function App() {
   
   return (
