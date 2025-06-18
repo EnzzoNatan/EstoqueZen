@@ -14,11 +14,13 @@ function LoginPage(){
             </div>
 
             <div className="flex justify-between mt-8">
-                <button type="button" className="bg-black text-white px-4 py-2 rounded-full text-sm font-semibold hover:brightness-110">
+                <button type="button" className="bg-black text-white px-4 py-2 rounded-full text-sm font-semibold hover:brightness-110
+                hover:bg-gray-800 hover:scale-105 transition duration-300 ease-in-out">
                     Esqueci minha senha
                 </button>
 
-                <button type="submit" className="bg-black text-white px-4 py-2 rounded-full text-sm font-semibold hover:brightness-110">
+                <button type="submit" className="bg-black text-white px-4 py-2 rounded-full text-sm font-semibold hover:brightness-110
+                hover:bg-gray-800 hover:scale-105 transition duration-300 ease-in-out">
                     Login
                 </button>
             </div>
